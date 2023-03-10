@@ -124,4 +124,8 @@ export class Tab2Page {
 
     await toast.present();
   }
+
+  mudarCor(valor: number) {
+    return this.valendo == valor ? 'outline' : 'solid';
+  }
 }
